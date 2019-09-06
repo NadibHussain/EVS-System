@@ -60,4 +60,9 @@ npm start
 ### Voter 
 * username:Voter1@1234
 * password:123456
-
+## ScreenShots
+![Screenshot (12)](https://user-images.githubusercontent.com/44313607/64461698-ba390080-d11f-11e9-9296-f605cdccb3ac.png)
+![Screenshot (7)](https://user-images.githubusercontent.com/44313607/64461678-aab9b780-d11f-11e9-901e-4e5ef9b3a574.png)
+![Screenshot (8)](https://user-images.githubusercontent.com/44313607/64461694-b9a06a00-d11f-11e9-9369-d9b3ee6da5a8.png)
+![Screenshot (9)](https://user-images.githubusercontent.com/44313607/64461695-b9a06a00-d11f-11e9-8d33-441d01db2f85.png)
+![Screenshot (10)](https://user-images.githubusercontent.com/44313607/64461697-ba390080-d11f-11e9-91ac-55fa07b947aa.png)
