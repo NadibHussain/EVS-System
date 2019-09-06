@@ -1,0 +1,42 @@
+# in workbench settings edit > preference  > sql editor > unmark safe update
+
+#reset count
+#UPDATE `ems_db`.`executive_candidate` SET count = 0;
+#UPDATE `ems_db`.`president_candidate` SET count = 0;
+
+
+UPDATE `ems_db`.`voter_list` SET `vote_given` = false WHERE (`id` = '7'); 
+UPDATE `ems_db`.`voter_list` SET `vote_given` = false WHERE (`id` = '10');
+
+# reset password to blank 
+UPDATE `ems_db`.`voter_list` SET `password` = '';
+
+#reset vote given  [true =  vote_given and false = didn't vote]
+UPDATE `ems_db`.`voter_list` SET `vote_given` = false
+
+
+#insert entry into president and executive candidate
+#main sql command format
+INSERT INTO table_name(column1, column2, column3, .....)
+VALUES (value1, value2, value3, ...);
+
+#example
+INSERT INTO president_candidate(membership_id, name, image_name) VALUES ('PMA-524', 'Noor Afroz (Banoo)','PRE_572D984989.jpg' ),
+(),
+();
+
+INSERT INTO executive_candidate(membership_id, name, image_name) 
+VALUES 
+('PMA-524', 'Noor Afroz (Banoo)','PRE_572D984989.jpg' ),
+(),
+();
+
+
+#Delete all entries from a table 
+
+
+TRUNCATE TABLE tablename;
+
+Example:
+
+ TRUNCATE TABLE executive_candidate;

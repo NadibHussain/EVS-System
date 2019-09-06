@@ -1,0 +1,47 @@
+If you want to silent print you must be use the firefox latest version 
+
+--------------------------
+---- setup firefox -------
+--------------------------
+
+1. Open firefox
+2. search about:config
+3. clicl on [ I accept the risk ] button 
+4. serach silent_print --> nothing to show 
+5. right click on the screen
+	New > boolean 
+6. preference name: 
+
+	print.always_print_silent
+
+	then set  true and ok
+
+7. Now firefox is ready to silent print to your computer default printer. 
+ 
+
+Note: Please set your printer from computer default printer. 
+
+8. If computer default printer is changed the in firefox search
+	about:config > print_printer > Reset 
+9. All will be ok.
+
+--------------------------
+---- Print Page setup ----
+--------------------------
+
+1. Click the menu button and select Print. The print preview window will appear.
+2. Click Page Setup.... The Page Setup window will appear.
+3. In the Page Setup window, click the Margins & Header/Footer tab. set blank to all headers/footers feild
+4. Click OK to close the Page Setup window and return to the Print Preview window.
+5. Back in the Print Preview window, click Print.... The Print window will appear.
+6. All done. 
+
+--------------------------
+--- Page zooming disable -
+--------------------------
+1. Open firefox
+2. search about:config
+3. clicl on [ I accept the risk ] button 
+4. serach zoom.minPercent --> set value 100
+5. Again serach zoom.maxPercent ---> set value 100
+

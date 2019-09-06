@@ -1,0 +1,21 @@
+@media print {
+    .PrintSection{
+      padding: 20px !important;
+      /* top:50%;
+      left:50%; */
+      /* margin: 5px; */
+      transform: rotate(90deg);
+      zoom: 200%;
+      /* align-content: center; */
+      /* display: block; */
+      margin-left: -30%;
+      margin-top: -10%;
+
+    }
+    @page :left {
+        margin: -5cm;
+        /* margin-right: 20%; */
+        }
+
+  }
+

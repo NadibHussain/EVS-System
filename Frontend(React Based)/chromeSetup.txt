@@ -1,0 +1,24 @@
+1. search in chrome url 
+
+	about:flag 
+2. search in about:flag 
+	Enable new Print Preview UI
+and disable it.
+
+3. Copy the chrome icon in dektop and go to its properties. 
+4. In shortcut tab set 
+	" --kiosk-printing" 
+with quotation in the end of the Target.
+
+Example:
+
+Before add:
+
+Target : "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+
+After add: 
+
+Target:	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" " --kiosk-printing"
+
+5. Then apply and relaunch the chrome.
+6. Setup done.

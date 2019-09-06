@@ -1,0 +1,18 @@
+#signInsliderMessage{
+    background:#0080ff;
+    color:whitesmoke;
+    min-width:30px !important;
+    max-width: 130px !important;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+
+.ant-message-notice-content {
+    /* background-color: #d50000; */
+    float:right;
+    /* min-width:30px !important;
+    max-width: 130px !important; */
+}
+

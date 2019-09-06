@@ -1,0 +1,87 @@
+/* ------------Main App Global Design------------ */
+.App {
+  text-align: center;
+  word-break: break-all;
+}
+
+.App-header {
+  background-color: #222;
+  height: 70px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+/* ------------ Search Component Design ------------- */
+.card-img-top {
+  height: 300px;
+}
+
+.memberdetails{
+  margin-top: 20px;
+}
+.searcharea{
+  margin-top: 100px;
+  border-right: 5px solid grey;
+  height:50vh;
+}
+
+.Search{
+  text-align: center;
+  min-height:80vh;
+}
+
+#components-layout-demo-top .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+
+
+/* -------------------Entry js design--------------------- */
+
+/* #components-form-demo-normal-login */
+.login-form {
+  max-width: 300px;
+  margin: auto;
+  /* text-align: center; */
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* #components-form-demo-normal-login  */
+
+.login-form-forgot {
+  float: right;
+}
+/* #components-form-demo-normal-login  */
+
+.login-form-button {
+  width: 100%;
+}
+
+
+
+/* --------------Add member------------- */
+
+#components-form-demo-validate-other .dropbox {
+  height: 180px;
+  line-height: 1.5;
+}
+/* ------------------------------------- */
+
+.resultexecutive{
+  min-height:90vh;
+}
+.resultpresident{
+  min-height:90vh;
+}
+
+.layout{
+  min-height: 100vh
+}
+

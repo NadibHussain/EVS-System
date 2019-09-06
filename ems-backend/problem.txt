@@ -1,0 +1,8 @@
+Problem: If server console shows the below problem 
+
+The Tomcat connector configured to listen on port 8090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Solution: 
+1. open cmd run as administrator
+2. netstat -ao |find /i "listening"  or  netstat -ano | find "8080" 
+3. Taskkill /F /IM portnumber (shown in cmd)

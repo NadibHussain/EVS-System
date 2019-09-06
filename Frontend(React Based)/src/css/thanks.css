@@ -1,0 +1,13 @@
+#thanks {
+    height: 100vh;
+    padding: 0;
+    justify-content: stretch;
+    align-items: center;
+    display: flex;
+    /* background-image: linear-gradient(-180deg, #ff1c68 0%, #9f0092 98%); */
+    background-color: #e9ecef;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float:center;
+  }

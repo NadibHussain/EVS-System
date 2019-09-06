@@ -1,0 +1,135 @@
+.ant-list-grid .ant-list-item {
+    margin-bottom: 0 !important;
+    text-align: -webkit-center;
+
+}
+
+.ant-card-body {
+    padding:10px;
+}
+
+
+
+form input[type="radio"], form input[type="checkbox"] {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+
+
+.pretty{
+    margin-right: 0em;
+    align-content: center;
+    align-items: center;
+    font-size: -webkit-xxx-large;
+    font-size: 80px;
+    /* margin-left: 20px;
+    margin-right: 5px;*/
+    margin-top: 20px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%; 
+  }
+
+
+@media all and (max-width: 480px){
+    .pretty{
+        margin-right: 0em;
+        align-content: center;
+        align-items: center;
+        font-size: -webkit-xxx-large;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 5px;
+        margin-top: 20px;
+
+      }   
+}
+
+
+#ballotSliderMessage{
+    background:#d50000;
+    color:whitesmoke;
+    min-width:30px !important;
+    max-width: 130px !important;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+
+}
+
+.countBar{
+    position: sticky;
+    position: -webkit-sticky;
+    background: #f83d23;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 6px #000;
+    color: #fff;
+}
+
+.pretty .state label:before {
+    /* border-color: 2px solid red; */
+    border: 2px solid red !important;
+}
+
+.ant-modal{
+    width: 800 !important;
+}
+
+
+
+/* #message-id{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* when print this design will followed */
+@media print {
+    .countBar{
+        visibility:hidden;
+    }
+    #countBar{
+        visibility:hidden;
+    }
+    #button{
+        display: none;
+    }
+    #message{
+        display:block;
+    }
+    .pretty{
+        margin-right: 0em;
+        align-content: center;
+        align-items: center;
+        font-size: -webkit-xxx-large;
+        font-size: 65px;
+        /* margin-left: 20px;
+        margin-right: 5px;*/
+        margin-top: 30%; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%; 
+      } 
+    @page {
+        size: A4;
+        margin-bottom: 0;
+      }
+  }
+
+
+  @page {
+    size: A4;
+    margin-bottom: 0;
+  }
